@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+li {
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #475569;
+  min-height: calc(100vh - 10vh);
+}
+
+.calculator {
+  background-color: #1f2937;
+  height: 85vh;
+  width: 25vw;
+  border-radius: 25px;
+}
+
+.text-part {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: end;
+  padding: 20px 30px;
+  justify-content: flex-end;
+  background-color: #111827;
+  height: 28vh;
+  border-radius: 6% 6% 2% 2%;
+}
+
+#expression {
+  color: whitesmoke;
+  font-size: 50px;
+  height: 6vh;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 6px 0;
+}
+
+#result {
+  font-size: 42px;
+  font-weight: bold;
+  height: 6vh;
+  padding: 6px 0;
+  width: 100%;
+}
+
+.buttons-part {
+  padding: 5px;
+  color: white;
+  height: 57vh;
+}
+
+.button-row {
+  margin-top: 12px;
+  height: 17%;
+}
+
+.buttons {
+  display: inline-block;
+  font-size: 41px;
+  /* margin: 10px 40px; */
+  text-align: center;
+  width: 24%;
+}
+
+footer {
+  color: white;
+  background-color: #1e293b;
+  height: 10vh;
+}
+
+.foot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 13px;
+  justify-content: space-between;
+}
+
+#copyright-msg {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.sites {
+  margin: 5px 0;
+}
+
+.sites ul li img {
+  height: 45px;
+  margin-right: 3px;
+}
