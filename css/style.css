@@ -57,6 +57,7 @@ li {
 }
 
 .buttons-part {
+  cursor: pointer;
   padding: 5px;
   color: white;
   height: 57vh;
