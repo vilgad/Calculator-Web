@@ -34,26 +34,6 @@ for (const element of btn) {
     })
 }
 
-// btn[0].addEventListener("click", clearAll);
-// btn[1].addEventListener("click", erase);
-// btn[2].addEventListener("click", function () { nmbr('%') });
-// btn[3].addEventListener("click", function () { nmbr('/') });
-// btn[4].addEventListener("click", function () { nmbr('7') });
-// btn[5].addEventListener("click", function () { nmbr('8') });
-// btn[6].addEventListener("click", function () { nmbr('9') });
-// btn[7].addEventListener("click", function () { nmbr('*') });
-// btn[8].addEventListener("click", function () { nmbr('4') });
-// btn[9].addEventListener("click", function () { nmbr('5') });
-// btn[10].addEventListener("click", function () { nmbr('6') });
-// btn[11].addEventListener("click", function () { nmbr('-') });
-// btn[12].addEventListener("click", function () { nmbr('1') });
-// btn[13].addEventListener("click", function () { nmbr('2') });
-// btn[14].addEventListener("click", function () { nmbr('3') });
-// btn[15].addEventListener("click", function () { nmbr('+') });
-// btn[17].addEventListener("click", function () { nmbr('0') });
-// btn[18].addEventListener("click", function () { nmbr('.') });
-// btn[19].addEventListener("click", calculate);
-
 function clearAll() {
     exprsn = "";
     exp.innerText = "";
